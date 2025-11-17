@@ -1,18 +1,17 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v9.0",
+    "name": ".NETCoreApp,Version=v10.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v9.0": {
+    ".NETCoreApp,Version=v10.0": {
       "KTN_Guardian/1.0.0": {
         "dependencies": {
           "KTN_Data_Tier": "1.0.0",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
-          "System.Drawing.Common": "9.0.9",
           "System.IdentityModel.Tokens.Jwt": "8.14.0",
-          "System.Management": "9.0.9"
+          "System.Management": "10.0.0"
         },
         "runtime": {
           "KTN_Guardian.dll": {}
@@ -79,19 +78,12 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/9.0.9": {},
       "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
         "runtime": {
           "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.135.29210"
           }
-        }
-      },
-      "System.CodeDom/9.0.9": {},
-      "System.Drawing.Common/9.0.9": {
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "9.0.9"
         }
       },
       "System.IdentityModel.Tokens.Jwt/8.14.0": {
@@ -106,22 +98,19 @@
           }
         }
       },
-      "System.Management/9.0.9": {
-        "dependencies": {
-          "System.CodeDom": "9.0.9"
-        },
+      "System.Management/10.0.0": {
         "runtime": {
-          "lib/net9.0/System.Management.dll": {
-            "assemblyVersion": "9.0.0.9",
-            "fileVersion": "9.0.925.41916"
+          "lib/net10.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net9.0/System.Management.dll": {
+          "runtimes/win/lib/net10.0/System.Management.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "9.0.0.9",
-            "fileVersion": "9.0.925.41916"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
           }
         }
       },
@@ -183,33 +172,12 @@
       "path": "microsoft.identitymodel.tokens/8.14.0",
       "hashPath": "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/9.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eJU9vZbN710Cc25p/jPecPEL+gFcnynAvznNRnEvMU7i7u0PSjFXlGO4SOlaIUvkykTlS2N++M9B/coxYT7aPw==",
-      "path": "microsoft.win32.systemevents/9.0.9",
-      "hashPath": "microsoft.win32.systemevents.9.0.9.nupkg.sha512"
-    },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
       "path": "microsoft.xaml.behaviors.wpf/1.1.135",
       "hashPath": "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
-    },
-    "System.CodeDom/9.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Az4ngSi0MO3Qwu1+BJRHnc2C8e7+x0oXj+Q++C/wru0vM8J2oL3QlliiZPdwPnR0VbiL0lH7izSIGQssMaRiGQ==",
-      "path": "system.codedom/9.0.9",
-      "hashPath": "system.codedom.9.0.9.nupkg.sha512"
-    },
-    "System.Drawing.Common/9.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BS17VFUf4RS9G/JoA6br+79jAjyTj0UaomgXCVNJJn9EWIvmHkn0ZCqAynxwloO00yPIvWgXBF9SBjcM06bl1w==",
-      "path": "system.drawing.common/9.0.9",
-      "hashPath": "system.drawing.common.9.0.9.nupkg.sha512"
     },
     "System.IdentityModel.Tokens.Jwt/8.14.0": {
       "type": "package",
@@ -218,12 +186,12 @@
       "path": "system.identitymodel.tokens.jwt/8.14.0",
       "hashPath": "system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512"
     },
-    "System.Management/9.0.9": {
+    "System.Management/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U+OnvxuFi/V0++P98Auba1pAyaOXU5EioSz0xczgFsB7l/sPX9Ix4rWwI+lXJG4/icPieeRsfpXPEIcSBTQShw==",
-      "path": "system.management/9.0.9",
-      "hashPath": "system.management.9.0.9.nupkg.sha512"
+      "sha512": "sha512-LE3rDZoPzulou78Tsq+3ALhUs4vatQ03v2QWbYVIenVPneUH/+LTUmHyyl098OxIFLQI6sNkZs8YHbUnT/sm3A==",
+      "path": "system.management/10.0.0",
+      "hashPath": "system.management.10.0.0.nupkg.sha512"
     },
     "KTN_Data_Tier/1.0.0": {
       "type": "project",
