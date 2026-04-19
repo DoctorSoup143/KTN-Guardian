@@ -9,108 +9,108 @@
       "KTN_Guardian/1.0.0": {
         "dependencies": {
           "KTN_Data_Tier": "1.0.0",
-          "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
-          "System.IdentityModel.Tokens.Jwt": "8.15.0",
-          "System.Management": "10.0.0"
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.142",
+          "System.IdentityModel.Tokens.Jwt": "8.17.0",
+          "System.Management": "10.0.6"
         },
         "runtime": {
           "KTN_Guardian.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "runtime": {
-          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
-      "Microsoft.IdentityModel.Abstractions/8.15.0": {
+      "Microsoft.IdentityModel.Abstractions/8.17.0": {
         "runtime": {
           "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
-            "assemblyVersion": "8.15.0.0",
-            "fileVersion": "8.15.0.61118"
+            "assemblyVersion": "8.17.0.0",
+            "fileVersion": "8.17.0.26082"
           }
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/8.15.0": {
+      "Microsoft.IdentityModel.JsonWebTokens/8.17.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "8.15.0"
+          "Microsoft.IdentityModel.Tokens": "8.17.0"
         },
         "runtime": {
           "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
-            "assemblyVersion": "8.15.0.0",
-            "fileVersion": "8.15.0.61118"
+            "assemblyVersion": "8.17.0.0",
+            "fileVersion": "8.17.0.26082"
           }
         }
       },
-      "Microsoft.IdentityModel.Logging/8.15.0": {
+      "Microsoft.IdentityModel.Logging/8.17.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "8.15.0"
+          "Microsoft.IdentityModel.Abstractions": "8.17.0"
         },
         "runtime": {
           "lib/net10.0/Microsoft.IdentityModel.Logging.dll": {
-            "assemblyVersion": "8.15.0.0",
-            "fileVersion": "8.15.0.61118"
+            "assemblyVersion": "8.17.0.0",
+            "fileVersion": "8.17.0.26082"
           }
         }
       },
-      "Microsoft.IdentityModel.Tokens/8.15.0": {
+      "Microsoft.IdentityModel.Tokens/8.17.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
-          "Microsoft.IdentityModel.Logging": "8.15.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.IdentityModel.Logging": "8.17.0"
         },
         "runtime": {
           "lib/net10.0/Microsoft.IdentityModel.Tokens.dll": {
-            "assemblyVersion": "8.15.0.0",
-            "fileVersion": "8.15.0.61118"
+            "assemblyVersion": "8.17.0.0",
+            "fileVersion": "8.17.0.26082"
           }
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
         "runtime": {
-          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
             "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.135.29210"
+            "fileVersion": "1.1.142.60144"
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/8.15.0": {
+      "System.IdentityModel.Tokens.Jwt/8.17.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "8.15.0",
-          "Microsoft.IdentityModel.Tokens": "8.15.0"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.17.0",
+          "Microsoft.IdentityModel.Tokens": "8.17.0"
         },
         "runtime": {
           "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll": {
-            "assemblyVersion": "8.15.0.0",
-            "fileVersion": "8.15.0.61118"
+            "assemblyVersion": "8.17.0.0",
+            "fileVersion": "8.17.0.26082"
           }
         }
       },
-      "System.Management/10.0.0": {
+      "System.Management/10.0.6": {
         "runtime": {
           "lib/net10.0/System.Management.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.0.6",
+            "fileVersion": "10.0.626.17701"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net10.0/System.Management.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.0.6",
+            "fileVersion": "10.0.626.17701"
           }
         }
       },
@@ -130,68 +130,68 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FU/IfjDfwaMuKr414SSQNTIti/69bHEMb+QKrskRb26oVqpx3lNFXMjs/RC9ZUuhBhcwDM2BwOgoMw+PZ+beqQ==",
-      "path": "microsoft.extensions.logging.abstractions/10.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512"
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Abstractions/8.15.0": {
+    "Microsoft.IdentityModel.Abstractions/8.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e/DApa1GfxUqHSBHcpiQg8yaghKAvFVBQFcWh25jNoRobDZbduTUACY8bZ54eeGWXvimGmEDdF0zkS5Dq16XPQ==",
-      "path": "microsoft.identitymodel.abstractions/8.15.0",
-      "hashPath": "microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512"
+      "sha512": "sha512-6NrxQGcZg6IunkN8K2F0UVMavNpfCjbjjjON7PYcL8FwI8aULKUreiHsRX/yaA8j3XsTJnQKUYpoQk5gBjULZw==",
+      "path": "microsoft.identitymodel.abstractions/8.17.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.17.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.JsonWebTokens/8.15.0": {
+    "Microsoft.IdentityModel.JsonWebTokens/8.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3513f5VzvOZy3ELd42wGnh1Q3e83tlGAuXFSNbENpgWYoAhLLzgFtd5PiaOPGAU0gqKhYGVzKavghLUGfX3HQg==",
-      "path": "microsoft.identitymodel.jsonwebtokens/8.15.0",
-      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.15.0.nupkg.sha512"
+      "sha512": "sha512-JbFZ3OVwtvqcqgBL0cIkhRYbIP7u9GIUYLOgbNqLWtBtZY8tGDpdGyXMzUVX0gVHq1ovuHsKZrkVv+ziHEnBHw==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.17.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.17.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Logging/8.15.0": {
+    "Microsoft.IdentityModel.Logging/8.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1gJLjhy0LV2RQMJ9NGzi5Tnb2l+c37o8D8Lrk2mrvmb6OQHZ7XJstd/XxvncXgBpad4x9CGXdipbZzJJCXKyAg==",
-      "path": "microsoft.identitymodel.logging/8.15.0",
-      "hashPath": "microsoft.identitymodel.logging.8.15.0.nupkg.sha512"
+      "sha512": "sha512-w1vjfri0BWqW7RkSZY3ZsqekNfIJJg5BQSFs2j+a+pCXOVrkezmJcn74pT3djwjXJh71577C6wJQgNc2UPz30w==",
+      "path": "microsoft.identitymodel.logging/8.17.0",
+      "hashPath": "microsoft.identitymodel.logging.8.17.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Tokens/8.15.0": {
+    "Microsoft.IdentityModel.Tokens/8.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zUE9ysJXBtXlHHRtcRK3Sp8NzdCI1z/BRDTXJQ2TvBoI0ENRtnufYIep0O5TSCJRJGDwwuLTUx+l/bEYZUxpCA==",
-      "path": "microsoft.identitymodel.tokens/8.15.0",
-      "hashPath": "microsoft.identitymodel.tokens.8.15.0.nupkg.sha512"
+      "sha512": "sha512-teaW35URIV2x78Tzk+dVJiC4M62/9mQoSEoDjDGoEZmcQa3H2rE+XQpm9Tmdo9KK1Lcrnve4zoyLavl69kCFGg==",
+      "path": "microsoft.identitymodel.tokens/8.17.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.17.0.nupkg.sha512"
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
-      "path": "microsoft.xaml.behaviors.wpf/1.1.135",
-      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
+      "sha512": "sha512-c47wA/8GHiQ9w+O6+mdqrZhZrxHogx2/fSZyRKL9tz0k+ypoTiwOx6fID0X3jr5LnCazJbCk7KiAcL0zVnNgNA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.142",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512"
     },
-    "System.IdentityModel.Tokens.Jwt/8.15.0": {
+    "System.IdentityModel.Tokens.Jwt/8.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dpodi7ixz6hxK8YCBYAWzm0IA8JYXoKcz0hbCbNifo519//rjUI0fBD8rfNr+IGqq+2gm4oQoXwHk09LX5SqqQ==",
-      "path": "system.identitymodel.tokens.jwt/8.15.0",
-      "hashPath": "system.identitymodel.tokens.jwt.8.15.0.nupkg.sha512"
+      "sha512": "sha512-nKikRYheDeSaXA3wGr2otwaiRFygBa25m+hc7MEomZVIEWZvKVqd8wgP9yn+8QpLRGgw//dUs4LErGx9gtVmAA==",
+      "path": "system.identitymodel.tokens.jwt/8.17.0",
+      "hashPath": "system.identitymodel.tokens.jwt.8.17.0.nupkg.sha512"
     },
-    "System.Management/10.0.0": {
+    "System.Management/10.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LE3rDZoPzulou78Tsq+3ALhUs4vatQ03v2QWbYVIenVPneUH/+LTUmHyyl098OxIFLQI6sNkZs8YHbUnT/sm3A==",
-      "path": "system.management/10.0.0",
-      "hashPath": "system.management.10.0.0.nupkg.sha512"
+      "sha512": "sha512-Tk/SyPDi0CbRrB23mUzPL4DHBBUFeF83OxfvvwyY3c4rPlhWtJXn/n3okXwdkPbh6RTC5HZjMCROBRoDZ45fOw==",
+      "path": "system.management/10.0.6",
+      "hashPath": "system.management.10.0.6.nupkg.sha512"
     },
     "KTN_Data_Tier/1.0.0": {
       "type": "project",
